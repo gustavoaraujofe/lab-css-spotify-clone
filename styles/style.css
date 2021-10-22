@@ -6,3 +6,155 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 1100px;
+    margin: 0;
+    margin: auto;
+    color: #1A1A1A;
+}
+
+.cabeçalho img {
+    width: 150px;
+    padding: 18px;
+}
+
+.cabeçalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav ul li{
+    display: inline;
+    padding: 18px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
+.nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.hero-image {
+    background-image: url("../images/landing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 68vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+}
+
+.hero-image h1 {
+    margin: auto;
+    text-align: center;
+    font-size: 63px;
+    font-weight: 400;
+}
+
+.hero-image p {
+    margin: 20px auto;
+    max-width: 530px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 335;
+    color: rgba(255, 255, 255, 0.582);
+}
+
+.conteudo {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 22px;
+}
+
+.conteudo h2 {
+    display: inline;
+    border-bottom: #00B172 solid 3px;
+    padding-bottom: 5px;
+}
+
+.conteudo h3 {
+    color: #00B172;
+}
+
+.sessão-blocos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 50px auto;
+    flex-wrap: wrap;
+}
+
+.bloco img {
+    max-height: 90px;
+}
+
+.bloco {
+    max-width: 300px;
+    min-width: 300px;
+    margin-top: 20px;
+}
+
+.color-rodape {
+    background-color: #00B172 ;
+    margin: 10px 30px ;
+    padding-bottom: 30px;
+    color: #FFF;
+    padding-top: 35px;
+}
+
+.color-rodape h2 {
+    display: inline;
+    border-bottom: #FFF solid 3px;
+    padding-bottom: 5px;
+    margin-left: 68px;
+    font-size: 30px;
+}
+
+.demais-informacoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+
+.logo-white img {
+    max-width: 100px;
+}
+
+.print-app img{
+    max-width: 250px;
+}
+
+.blocos-rodape {
+    max-width: 300px;
+    min-width: 300px;
+    line-height: 36px;
+}
+
+.alinhamento-bloco {
+    text-align: center;
+}
+
+.blocos-rodape h3 {
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+
+.blocos-rodape p {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.644);
+    margin-top: 10px;
+}
